@@ -1,5 +1,16 @@
 # ssx3-recomp
 
+> **About this fork**
+>
+> This fork has fixes that aren't in the original yet (submitted upstream as [#24](https://github.com/koenhendriks/SSX3-recomp/pull/24), [#25](https://github.com/koenhendriks/SSX3-recomp/pull/25) and [#26](https://github.com/koenhendriks/SSX3-recomp/pull/26)):
+>
+> - No more FPS drops in races, plus fixes for garbled flashes, HUD flicker when menus open and close, and dropped draws at the race start.
+> - Frame pacing and variable refresh: 60/120/144/165/240 Hz, G-Sync/FreeSync.
+> - Zero-copy presentation on Windows, which fixes the stutter at 4K.
+> - The HD texture pack loads in the background.
+>
+> The release downloads below are the original version. To get these changes, build from this fork's source (see [Build](#build)).
+
 [![Listed on PlayPorted](https://playported.com/badge.svg)](https://playported.com/ports/434-ssx-3/)
 
 Static recompilation of **SSX 3** (original Xbox, PAL) into a native program
